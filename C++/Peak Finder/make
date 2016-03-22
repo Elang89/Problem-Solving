@@ -1,2 +1,2 @@
 all: 
-	g++ -g -o main main.cpp peak.cpp
+	g++-5 -std=c++14 -o main main.cpp peak.cpp
