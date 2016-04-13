@@ -1,6 +1,5 @@
 #include <cstdlib>
 #include <iostream>
-#include <iterator>
 #include <vector>
 #include "peak.h"
 
