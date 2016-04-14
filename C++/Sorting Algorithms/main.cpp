@@ -9,7 +9,9 @@ using std::endl;
 int main(int argc, char * argv[])
 {
 	vector<int> array{10,2,4,5};
-	merge_sort(array,0,array.size());
+	int low = 0;
+	int high = array.size()-1;
+	merge_sort(array,low,high);
 
 	for(int i = 0; i < array.size(); i++)
 	{
